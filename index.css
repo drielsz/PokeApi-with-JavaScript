@@ -1,11 +1,16 @@
 html, body {
     overflow-x: hidden;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .container-poke {
-
-    padding: 0px 100px 0px 100px; /* topo | direita | inferior | esquerda */
+    padding: 0px 200px 0px 200px; /* topo | direita | inferior | esquerda */
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -21,6 +26,7 @@ ul {
     flex: 1;
     flex-flow: wrap;
     gap: 100px;
+    padding: 0;
 }
 
 li {
