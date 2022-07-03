@@ -1,0 +1,8 @@
+@media (max-width: 747px) {
+    li {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

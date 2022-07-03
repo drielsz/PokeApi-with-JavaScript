@@ -1,0 +1,34 @@
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.container-poke {
+
+    padding: 0px 100px 0px 100px; /* topo | direita | inferior | esquerda */
+}
+
+h1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+    display: flex;
+    height: auto;
+    flex: 1;
+    flex-flow: wrap;
+    gap: 100px;
+}
+
+li {
+    flex: 1;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

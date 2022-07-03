@@ -27,6 +27,8 @@ for (let i = 0; i < ResultsJson.length; i++) {
     .then(function (data) {
       let authors = data.sprites.other.dream_world.front_default;
       let li = createNode("li");
+      li.style.cssText = "list-style: none"
+
       let img = createNode("img");
       
       img.style.cssText = "width: 150px; height: 150px"
