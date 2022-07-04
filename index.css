@@ -6,7 +6,7 @@ html, body {
 }
 
 .container-poke {
-    padding: 0px 200px 0px 200px; /* topo | direita | inferior | esquerda */
+    padding: 0px 12.5vw 0px 12.5vw; /* topo | direita | inferior | esquerda */
     display: flex;
     flex: 1;
     align-items: center;

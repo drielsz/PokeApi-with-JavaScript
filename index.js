@@ -25,7 +25,8 @@ for (let i = 0; i < ResultsJson.length; i++) {
   fetch(linkPokemon)
     .then((resp) => resp.json())
     .then(function (data) {
-      let authors = data.sprites.other.dream_world.front_default;
+      let authors = data.sprites.front_default;
+      console.log(authors)
       let li = createNode("li");
       li.style.cssText = "list-style: none"
 
